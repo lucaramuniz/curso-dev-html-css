@@ -4,3 +4,4 @@ Arquivos e exercícios do cursos
 
  - Contém boas práticas para Frontend
  - Arquivos atualizados para consulta
+ - Arquivos HTML e CSS
