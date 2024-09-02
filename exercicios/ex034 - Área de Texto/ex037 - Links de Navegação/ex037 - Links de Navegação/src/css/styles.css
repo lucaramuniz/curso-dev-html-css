@@ -1,0 +1,148 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+#grid-conteudo {
+  background-color: #dcdcdc;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.grid div {
+  background-color: #fff;
+  text-align: center;
+  padding: 2px;
+}
+#html {
+  font-family: arial;
+  font-size: 62.5%;
+}
+#opcao-compras {
+  font-size: 18px;
+  background-color: green;
+  color: #fff;
+  width: 150px;
+  height: 120px;
+  right: 0;
+  position: fixed;
+  text-align: center;
+  top: 7rem;
+ /* bottom: 4rem; */
+  z-index: 1;
+  margin-inline-end: 20px;
+  border-radius: 40px;
+  margin-top: 4rem;
+  padding-top: 10px;
+  /* display: grid;
+  place-items: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2%;
+
+}
+#button-compras {
+  padding: 10px;
+  border-radius: 30px;
+  margin: 1rem;
+  height: 4rem;
+  width: 100px;
+  font-size: 17px;
+  font-weight: bold;
+  background-color: goldenrod;
+  color: #fff;
+
+}
+header {
+  font-size: 1.8rem;
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+  padding-top: 2rem;
+  position: fixed;
+  width: 100%;
+}
+footer {
+  font-size: 1.8rem;
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 1.9rem;
+}
+figure {
+  text-align: center;
+}
+
+.conteudo {
+  font-size: 1.6rem;
+  background-color: #fff;
+  padding: 1.5rem;
+  text-align: justify;
+  margin: 0 auto;
+  max-width: 95%;
+  word-break: 10%;
+}
+
+.conteudo-top {
+  padding-top: 10rem;
+}
+.imagem-site {
+  border-radius: 50px;
+  width: 30%;
+  height: 10%;
+}
+@media (min-width: 280px) and (max-width: 920px) {
+  .imagem-site {
+    border-radius: 50px;
+    width: 90%;
+    height: 70%;
+  }
+}
+
+#formulario {
+  background-color: #dcdcdc;
+}
+.input{
+  border: solid;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 1.8rem;
+}
+
+.btn-module-style {
+  border-radius: 5px;
+  color: #fff;
+  text-align: left;
+  padding: 5px;
+  font-weight: bold;
+  word-spacing: 10px;
+}
+#btn-limpar {
+  background-color: #ff0000;
+}
+#btn-enviar {
+  background-color: green;
+}
+.formato-div-nav{
+  text-align: right;
+  top: 10px;
+  font-size: 1.6rem;
+  word-spacing: 10px;
+  margin-right: 5%;
+  padding-bottom: 5px;
+
+}
+.formato-div-nav a{
+text-decoration: none;
+color: #fff;
+}

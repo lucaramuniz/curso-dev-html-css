@@ -1,0 +1,75 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+#html {
+  font-family: arial;
+  font-size: 62.5%;
+}
+#opcao-compras {
+  background-color: green;
+  color: #fff;
+  width: 150px;
+  height: 100px;
+  right: 0;
+  position: fixed;
+  text-align: center;
+  margin-top: 4rem;
+  z-index: 1;
+}
+header {
+  font-size: 1.8rem;
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+  padding-top: 2rem;
+  position: fixed;
+  width: 100%;
+}
+footer {
+  font-size: 1.8rem;
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 1.9rem;
+}
+figure {
+  text-align: center;
+}
+
+.conteudo {
+  font-size: 1.6rem;
+  background-color: #fff;
+  padding: 1.5rem;
+  text-align: justify;
+  margin: 0 auto;
+  max-width: 95%;
+}
+.conteudo-topo {
+  font-size: 1.6rem;
+  background-color: #fff;
+  padding: 1.5rem;
+  text-align: justify;
+  margin: 0 auto;
+  max-width: 95%;
+  padding-top: 10rem;
+}
+.imagem-site {
+  border-radius: 50px;
+  width: 30%;
+  height: 10%;
+}
+@media (min-width: 280px) and (max-width: 920px) {
+  .imagem-site {
+    border-radius: 50px;
+    width: 90%;
+    height: 70%;
+  }
+}
